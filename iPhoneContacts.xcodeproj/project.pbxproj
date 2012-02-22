@@ -26,7 +26,6 @@
 		389B409D0FFFF5220070D43C /* ABAddressBookUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B409B0FFFF5220070D43C /* ABAddressBookUI.m */; };
 		633CD00F1348DDC100A911BD /* ABSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 633CD00D1348DDC100A911BD /* ABSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		633CD0101348DDC100A911BD /* ABSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 633CD00E1348DDC100A911BD /* ABSource.m */; };
-		AA747D9F0F9514B9006C5449 /* iPhoneContacts_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* iPhoneContacts_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +49,6 @@
 		389B409B0FFFF5220070D43C /* ABAddressBookUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAddressBookUI.m; sourceTree = "<group>"; };
 		633CD00D1348DDC100A911BD /* ABSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSource.h; sourceTree = "<group>"; };
 		633CD00E1348DDC100A911BD /* ABSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSource.m; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* iPhoneContacts_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneContacts_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libAddressBookWrappers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAddressBookWrappers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,7 +123,6 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* iPhoneContacts_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -147,7 +144,6 @@
 				389B3ED40FFD16F70070D43C /* AddressBook.h in Headers */,
 				389B409C0FFFF5220070D43C /* ABAddressBookUI.h in Headers */,
 				633CD00F1348DDC100A911BD /* ABSource.h in Headers */,
-				AA747D9F0F9514B9006C5449 /* iPhoneContacts_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +218,6 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iPhoneContacts_Prefix.pch;
 				PRODUCT_NAME = AddressBookWrappers;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/AddressBookObjects;
 				SKIP_INSTALL = YES;
@@ -236,7 +231,6 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iPhoneContacts_Prefix.pch;
 				PRODUCT_NAME = AddressBookWrappers;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/AddressBookObjects;
 				SKIP_INSTALL = YES;
